@@ -1,2 +1,8 @@
-# 忽略 demo 目录
-demo/
+# 忽略包含 demo 的文件或目录
+*demo*
+
+# 忽略 temp 目录
+temp/
+
+# 忽略 vscod 工作区文件
+*.code-workspace
