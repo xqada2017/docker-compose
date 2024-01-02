@@ -3,8 +3,8 @@ services:
   logstash:
     # image: docker.elastic.co/logstash/logstash:8.11.3
     image: xqada2017/logstash:8.11.3-multiline
-    # restart: always
-    restart: on-failure:3
+    restart: always
+    # restart: on-failure:3
     network_mode: host
     volumes:
       - /usr/share/zoneinfo/Asia/Shanghai:/etc/localtime:ro
